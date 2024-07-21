@@ -20,9 +20,12 @@
 		39746DCD2C4DC4AA0082E782 /* SingleImageableChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39746DCC2C4DC4AA0082E782 /* SingleImageableChatTableViewCell.swift */; };
 		39746DD02C4DC7B50082E782 /* ChatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39746DCF2C4DC7B50082E782 /* ChatViewModelTests.swift */; };
 		39746DD12C4DC8650082E782 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395986742C4D427700657260 /* ChatViewModel.swift */; };
-		39746DD22C4DC9450082E782 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DF62C4D2BD400AF4E45 /* Logger.swift */; };
 		39746DD32C4DC9DA0082E782 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959867E2C4D5F0600657260 /* Array+Extension.swift */; };
 		39746DD82C4DCCA40082E782 /* UnitTestObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39746DD72C4DCCA40082E782 /* UnitTestObserver.swift */; };
+		398E151E2C4DE57E00041A77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E151D2C4DE57E00041A77 /* main.swift */; };
+		398E15202C4DE59800041A77 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E151F2C4DE59800041A77 /* Logger.swift */; };
+		398E15222C4DE5A900041A77 /* Swinject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E15212C4DE5A900041A77 /* Swinject+Extension.swift */; };
+		398E15232C4DE5F500041A77 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E151F2C4DE59800041A77 /* Logger.swift */; };
 		39A41DBF2C4D1EBD00AF4E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DBE2C4D1EBD00AF4E45 /* AppDelegate.swift */; };
 		39A41DC12C4D1EBD00AF4E45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DC02C4D1EBD00AF4E45 /* SceneDelegate.swift */; };
 		39A41DC32C4D1EBD00AF4E45 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DC22C4D1EBD00AF4E45 /* ChatViewController.swift */; };
@@ -31,9 +34,6 @@
 		39A41DCB2C4D1EBE00AF4E45 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 39A41DCA2C4D1EBE00AF4E45 /* Base */; };
 		39A41DF02C4D2AB000AF4E45 /* CKNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DEF2C4D2AB000AF4E45 /* CKNotificationCenter.swift */; };
 		39A41DF32C4D2B3500AF4E45 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 39A41DF22C4D2B3500AF4E45 /* Swinject */; };
-		39A41DF72C4D2BD400AF4E45 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DF62C4D2BD400AF4E45 /* Logger.swift */; };
-		39A41DF92C4D2CC500AF4E45 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DF82C4D2CC500AF4E45 /* main.swift */; };
-		39A41DFC2C4D2D2C00AF4E45 /* Swinject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DFB2C4D2D2C00AF4E45 /* Swinject+Extension.swift */; };
 		39A41DFE2C4D2F1600AF4E45 /* CKKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A41DFD2C4D2F1600AF4E45 /* CKKeyboardManager.swift */; };
 		39D37D8E2C4DA09A00ED0F02 /* DeletableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D37D8D2C4DA09A00ED0F02 /* DeletableCell.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +63,9 @@
 		39746DCF2C4DC7B50082E782 /* ChatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelTests.swift; sourceTree = "<group>"; };
 		39746DD52C4DCC780082E782 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39746DD72C4DCCA40082E782 /* UnitTestObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestObserver.swift; sourceTree = "<group>"; };
+		398E151D2C4DE57E00041A77 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		398E151F2C4DE59800041A77 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		398E15212C4DE5A900041A77 /* Swinject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swinject+Extension.swift"; sourceTree = "<group>"; };
 		39A41DBB2C4D1EBD00AF4E45 /* ChatScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A41DBE2C4D1EBD00AF4E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39A41DC02C4D1EBD00AF4E45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,9 +76,6 @@
 		39A41DCC2C4D1EBE00AF4E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39A41DD12C4D1EBF00AF4E45 /* ChatScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A41DEF2C4D2AB000AF4E45 /* CKNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKNotificationCenter.swift; sourceTree = "<group>"; };
-		39A41DF62C4D2BD400AF4E45 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = ../../../../../initTask/ChatScreen/ChatScreen/CommonKit/Logging/Logger.swift; sourceTree = "<group>"; };
-		39A41DF82C4D2CC500AF4E45 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../../initTask/ChatScreen/ChatScreen/main.swift; sourceTree = "<group>"; };
-		39A41DFB2C4D2D2C00AF4E45 /* Swinject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Swinject+Extension.swift"; path = "../../../../../initTask/ChatScreen/ChatScreen/CommonKit/Extensions/Swinject+Extension.swift"; sourceTree = "<group>"; };
 		39A41DFD2C4D2F1600AF4E45 /* CKKeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKKeyboardManager.swift; sourceTree = "<group>"; };
 		39D37D8D2C4DA09A00ED0F02 /* DeletableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +196,7 @@
 		39A41DBD2C4D1EBD00AF4E45 /* ChatScreen */ = {
 			isa = PBXGroup;
 			children = (
-				39A41DF82C4D2CC500AF4E45 /* main.swift */,
+				398E151D2C4DE57E00041A77 /* main.swift */,
 				39A41DBE2C4D1EBD00AF4E45 /* AppDelegate.swift */,
 				39A41DC02C4D1EBD00AF4E45 /* SceneDelegate.swift */,
 				395986712C4D424700657260 /* Chat */,
@@ -231,7 +231,7 @@
 		39A41DF42C4D2BAE00AF4E45 /* Logging */ = {
 			isa = PBXGroup;
 			children = (
-				39A41DF62C4D2BD400AF4E45 /* Logger.swift */,
+				398E151F2C4DE59800041A77 /* Logger.swift */,
 			);
 			path = Logging;
 			sourceTree = "<group>";
@@ -247,8 +247,8 @@
 		39A41DFA2C4D2D0600AF4E45 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				398E15212C4DE5A900041A77 /* Swinject+Extension.swift */,
 				3959867E2C4D5F0600657260 /* Array+Extension.swift */,
-				39A41DFB2C4D2D2C00AF4E45 /* Swinject+Extension.swift */,
 				395986792C4D4DA000657260 /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
@@ -370,13 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398E15202C4DE59800041A77 /* Logger.swift in Sources */,
 				3959867A2C4D4DA000657260 /* UITableView+Extension.swift in Sources */,
-				39A41DF72C4D2BD400AF4E45 /* Logger.swift in Sources */,
+				398E15222C4DE5A900041A77 /* Swinject+Extension.swift in Sources */,
 				39A41DC32C4D1EBD00AF4E45 /* ChatViewController.swift in Sources */,
 				39746DCD2C4DC4AA0082E782 /* SingleImageableChatTableViewCell.swift in Sources */,
 				395986892C4D7A9400657260 /* ImageableCollectionViewCell.swift in Sources */,
-				39A41DFC2C4D2D2C00AF4E45 /* Swinject+Extension.swift in Sources */,
-				39A41DF92C4D2CC500AF4E45 /* main.swift in Sources */,
 				39A41DFE2C4D2F1600AF4E45 /* CKKeyboardManager.swift in Sources */,
 				39A41DBF2C4D1EBD00AF4E45 /* AppDelegate.swift in Sources */,
 				39A41DC12C4D1EBD00AF4E45 /* SceneDelegate.swift in Sources */,
@@ -386,6 +385,7 @@
 				395986812C4D665100657260 /* CKView.swift in Sources */,
 				3959867D2C4D583400657260 /* StringableChatTableViewCell.swift in Sources */,
 				39D37D8E2C4DA09A00ED0F02 /* DeletableCell.swift in Sources */,
+				398E151E2C4DE57E00041A77 /* main.swift in Sources */,
 				395986832C4D6B9100657260 /* CKTextView.swift in Sources */,
 				3959867F2C4D5F0600657260 /* Array+Extension.swift in Sources */,
 				395986782C4D4C9500657260 /* CKTableView.swift in Sources */,
@@ -396,9 +396,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398E15232C4DE5F500041A77 /* Logger.swift in Sources */,
 				39746DD82C4DCCA40082E782 /* UnitTestObserver.swift in Sources */,
 				39746DD12C4DC8650082E782 /* ChatViewModel.swift in Sources */,
-				39746DD22C4DC9450082E782 /* Logger.swift in Sources */,
 				39746DD02C4DC7B50082E782 /* ChatViewModelTests.swift in Sources */,
 				39746DD32C4DC9DA0082E782 /* Array+Extension.swift in Sources */,
 			);
